@@ -1,0 +1,12 @@
+package br.com.gfelipe.MicroService.Pessoas.Repository;
+
+import javax.persistence.Id;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.gfelipe.MicroService.Pessoas.Model.PessoaModel;
+
+public interface IPessoaRepository extends JpaRepository<PessoaModel, Id>{
+	
+
+}

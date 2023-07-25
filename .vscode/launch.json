@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroServicePessoasApplication<MicroServicePessoas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.gfelipe.MicroServicePessoas.MicroServicePessoasApplication",
+            "projectName": "MicroServicePessoas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

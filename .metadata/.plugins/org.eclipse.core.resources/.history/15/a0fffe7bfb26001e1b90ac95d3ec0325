@@ -1,0 +1,16 @@
+package br.com.gfelipe.MicroService.Pessoas.Model;
+
+import java.util.UUID;
+
+public class PessoaModel {
+	
+	
+	private Integer id;
+	
+	private String nome;
+	private String cidade;
+	private String estado;
+	
+	
+
+}

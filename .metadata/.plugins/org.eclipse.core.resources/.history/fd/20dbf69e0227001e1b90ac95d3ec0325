@@ -1,0 +1,38 @@
+package br.com.gfelipe.MicroService.Pessoas.Controller;
+
+import javax.validation.Valid;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.gfelipe.MicroService.Pessoas.Dto.PessoaDTO;
+import br.com.gfelipe.MicroService.Pessoas.Model.PessoaModel;
+import br.com.gfelipe.MicroService.Pessoas.Service.IPessoaService;
+
+@RestController
+@RequestMapping("api/pessoas")
+public class PessoaController {
+	
+	@Autowired
+	private IPessoaService service;
+	
+	@PostMapping
+	public ResponseEntity<PessoaModel> criarPessoa(@RequestBody @Valid PessoaModel pessoa) {
+		ModelMapper mapper = new ModelMapper();
+		PessoaDTO dto = mapper.map(pessoa, PessoaDTO.class);
+		dto = service.criarPessoa(dto);
+		
+		return new ResponseEntity<>(mapper.map(dto, PessoaModel.class),HttpStatus.CREATED);
+		
+	}
+	
+	public obterTodos()
+	
+
+}

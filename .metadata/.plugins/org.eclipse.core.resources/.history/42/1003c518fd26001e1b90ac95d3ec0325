@@ -1,0 +1,50 @@
+package br.com.gfelipe.MicroService.Pessoas.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.gfelipe.MicroService.Pessoas.Dto.PessoaDTO;
+import br.com.gfelipe.MicroService.Pessoas.Repository.IPessoaRepository;
+
+@Service
+public class PessoaServiceImpl implements IPessoaService{
+
+	@Autowired
+	private IPessoaRepository repo;
+	
+	
+	
+	@Override
+	public PessoaDTO criarPessoa(PessoaDTO pessoa) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<PessoaDTO> obterTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<PessoaDTO> obterPorId(Integer id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public void removerPessoa(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public PessoaDTO atualizarPessoa(Integer id, PessoaDTO pet) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,16 @@
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/PetShop
+spring.datasource.username=postgres
+spring.datasource.password=george123
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+spring.application.name=animais-ms
+server.port = 8083
+
+spring.cloud.config.import-check.enabled=false
+eureka.instance.hostname = localhost
+
+eureka.client.serviceUrl.defaultZone =http://localhost:8081/eureka
+eureka.instance.instance-id= ${spring.application.name}
