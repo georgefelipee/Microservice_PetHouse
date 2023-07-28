@@ -60,6 +60,7 @@
   <path value="C:/Users/George/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.1/spring-boot-test-autoconfigure-3.1.1.jar"/>
   <path value="C:/Users/George/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar"/>
+  <path value="C:/Users/George/.m2/repository/org/springframework/cloud/spring-cloud-config-client/4.0.3/spring-cloud-config-client-4.0.3.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/spring-beans/6.0.10/spring-beans-6.0.10.jar"/>
   <path value="C:/Users/George/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar"/>
   <path value="C:/Users/George/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.2/httpcore5-h2-5.2.2.jar"/>
@@ -88,12 +89,14 @@
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot/3.1.1/spring-boot-3.1.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar"/>
   <path value="C:/Users/George/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"/>
+  <path value="C:/Users/George/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/4.0.3/spring-cloud-starter-config-4.0.3.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.1.1/spring-boot-actuator-autoconfigure-3.1.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/3.1.2/jersey-container-servlet-3.1.2.jar"/>
   <path value="C:/Users/George/.m2/repository/io/micrometer/micrometer-commons/1.11.1/micrometer-commons-1.11.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.1/spring-boot-starter-test-3.1.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar"/>
+  <path value="C:/Users/George/.m2/repository/org/springframework/cloud/spring-cloud-starter-bootstrap/3.0.5/spring-cloud-starter-bootstrap-3.0.5.jar"/>
   <path value="C:/Users/George/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/cloud/spring-cloud-commons/4.0.3/spring-cloud-commons-4.0.3.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/spring-context-support/6.0.10/spring-context-support-6.0.10.jar"/>
@@ -152,10 +155,11 @@
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.1/spring-boot-starter-tomcat-3.1.1.jar"/>
  </paths>
  <validation>
+  <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="23" name="%0" offset="1312" path="%1"/>
-   <linked-el length="23" name="%2" offset="1312" path="%1"/>
-   <linked-el length="23" name="%3" offset="1312" path="%1"/>
+   <linked-el length="23" name="%0" offset="1669" path="%1"/>
+   <linked-el length="23" name="%2" offset="1669" path="%1"/>
+   <linked-el length="23" name="%3" offset="1669" path="%1"/>
   </el>
  </validation>
  <aliases>

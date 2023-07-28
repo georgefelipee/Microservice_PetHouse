@@ -117,6 +117,7 @@
   <path value="C:/Users/George/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/2.2.5.RELEASE/spring-cloud-starter-config-2.2.5.RELEASE.jar"/>
   <path value="C:/Users/George/.m2/repository/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar"/>
   <path value="C:/Users/George/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar"/>
+  <path value="C:/Users/George/.m2/repository/org/springframework/cloud/spring-cloud-starter-bootstrap/3.0.5/spring-cloud-starter-bootstrap-3.0.5.jar"/>
   <path value="C:/Users/George/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar"/>
   <path value="C:/Users/George/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar"/>
   <path value="C:/Users/George/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"/>
@@ -177,9 +178,9 @@
  <validation>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="23" name="%0" offset="1816" path="%1"/>
-   <linked-el length="23" name="%2" offset="1816" path="%1"/>
-   <linked-el length="23" name="%3" offset="1816" path="%1"/>
+   <linked-el length="23" name="%0" offset="2167" path="%1"/>
+   <linked-el length="23" name="%2" offset="2167" path="%1"/>
+   <linked-el length="23" name="%3" offset="2167" path="%1"/>
   </el>
  </validation>
  <aliases>

@@ -1,5 +1,0 @@
-package br.com.gfelipe.MicroService.Pessoas.Dto;
-
-public class PessoaDTO {
-
-}

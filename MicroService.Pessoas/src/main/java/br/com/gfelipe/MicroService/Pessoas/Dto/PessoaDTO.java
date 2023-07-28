@@ -1,6 +1,6 @@
 package br.com.gfelipe.MicroService.Pessoas.Dto;
 
-
+import jakarta.persistence.Column;
 
 public class PessoaDTO {
 
@@ -9,7 +9,22 @@ public class PessoaDTO {
 	private String nome;
 	private String cidade;
 	private String estado;
+	private String email;
+	private Long tel;
 	
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Long getTel() {
+		return tel;
+	}
+	public void setTel(Long tel) {
+		this.tel = tel;
+	}
 	public Integer getId() {
 		return id;
 	}

@@ -1,18 +1,9 @@
 package br.com.gfelipe.MicroServicePet.models;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.UUID;
 
 import org.springframework.hateoas.RepresentationModel;
-
-import jakarta.annotation.Generated;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
 
 
 public class PessoaModel extends RepresentationModel<PessoaModel> implements Serializable{

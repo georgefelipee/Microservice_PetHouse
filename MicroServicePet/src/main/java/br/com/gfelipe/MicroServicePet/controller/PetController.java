@@ -8,6 +8,8 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+import javax.validation.Valid;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,12 +23,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-
 import br.com.gfelipe.MicroServicePet.dto.PetRecordDto;
 import br.com.gfelipe.MicroServicePet.models.PetModel;
 import br.com.gfelipe.MicroServicePet.repositories.IPetRepository;
 import br.com.gfelipe.MicroServicePet.service.IPetService;
-import jakarta.validation.Valid;
 
 @RestController
 public class PetController {
