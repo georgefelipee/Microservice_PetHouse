@@ -157,7 +157,6 @@
   <path value="C:/Users/George/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.14.1/log4j-to-slf4j-2.14.1.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="35" name="%0" offset="2908" path="%1"/>
    <linked-el length="23" name="%0" offset="3180" path="%1"/>

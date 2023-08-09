@@ -1,5 +1,0 @@
-package br.com.gfelipe.MicroService.Pessoas.http;
-
-public class AnimaisFeignCLient {
-
-}

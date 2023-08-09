@@ -74,7 +74,7 @@ public class PessoaController {
 	}
 	
 	@PutMapping(value = "/{id}")
-	public ResponseEntity<PessoaDTO> atualizarAnimal(@PathVariable Integer id, @jakarta.validation.Valid @RequestBody PessoaDTO pessoa){
+	public ResponseEntity<PessoaDTO> atualizarPessoa(@PathVariable Integer id, @jakarta.validation.Valid @RequestBody PessoaDTO pessoa){
 		ModelMapper mapper = new ModelMapper();
 		PessoaDTO dto = mapper.map(pessoa, PessoaDTO.class);
 		dto = service.atualizarPessoa(id, dto);

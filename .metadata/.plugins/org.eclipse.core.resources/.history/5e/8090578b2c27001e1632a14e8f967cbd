@@ -1,8 +1,0 @@
-package br.com.gfelipe.MicroService.Pessoas.http;
-
-import org.springframework.cloud.openfeign.FeignClient;
-
-@FeignClient(name="controle-animais-ms")
-public interface AnimaisFeignClient {
-
-}

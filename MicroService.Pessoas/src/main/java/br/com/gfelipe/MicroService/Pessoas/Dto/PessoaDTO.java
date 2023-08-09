@@ -8,11 +8,26 @@ public class PessoaDTO {
 	
 	private String nome;
 	private String cidade;
-	private String estado;
 	private String email;
+	private String password;
+	private String role;
+	private String estado;
 	private Long tel;
 	
 	
+	
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
 	public String getEmail() {
 		return email;
 	}

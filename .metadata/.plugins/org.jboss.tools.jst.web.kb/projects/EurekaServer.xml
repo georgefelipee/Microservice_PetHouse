@@ -67,8 +67,14 @@
   <path value="C:/Users/George/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.10/tomcat-embed-el-10.1.10.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/spring-webmvc/6.0.10/spring-webmvc-6.0.10.jar">
    <libraries>
-    <library class="tld"/>
-    <library class="tld"/>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-6.0.10.jar/meta-inf/spring-form.tld" project="EurekaServer"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-6.0.10.jar/meta-inf/spring.tld" project="EurekaServer"/>
+    </library>
    </libraries>
   </path>
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.1/spring-boot-autoconfigure-3.1.1.jar"/>
@@ -136,8 +142,8 @@
   <path value="C:/Users/George/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar"/>
   <path value="C:/Users/George/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
   <path value="C:/Users/George/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
-  <path value="C:/Users/George/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/springframework/spring-jcl/6.0.10/spring-jcl-6.0.10.jar"/>
+  <path value="C:/Users/George/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar"/>
   <path value="C:/Users/George/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.1/mockito-junit-jupiter-4.8.1.jar"/>
   <path value="C:/Users/George/.m2/repository/com/thoughtworks/xstream/xstream/1.4.19/xstream-1.4.19.jar"/>
@@ -155,7 +161,6 @@
   <path value="C:/Users/George/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.1/spring-boot-starter-tomcat-3.1.1.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="23" name="%0" offset="1669" path="%1"/>
    <linked-el length="23" name="%2" offset="1669" path="%1"/>
